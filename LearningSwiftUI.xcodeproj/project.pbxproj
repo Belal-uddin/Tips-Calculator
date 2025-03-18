@@ -14,6 +14,10 @@
 		1D8E607C2D897260009D6DE1 /* LearningSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E607B2D897260009D6DE1 /* LearningSwiftUITests.swift */; };
 		1D8E60862D897260009D6DE1 /* LearningSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E60852D897260009D6DE1 /* LearningSwiftUIUITests.swift */; };
 		1D8E60882D897260009D6DE1 /* LearningSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E60872D897260009D6DE1 /* LearningSwiftUIUITestsLaunchTests.swift */; };
+		1D8E60952D8977CD009D6DE1 /* ModifyingProgramState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E60942D8977CD009D6DE1 /* ModifyingProgramState.swift */; };
+		1D8E60972D897A89009D6DE1 /* BindingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E60962D897A89009D6DE1 /* BindingState.swift */; };
+		1D8E60992D8984A5009D6DE1 /* CreatingViewInLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E60982D8984A5009D6DE1 /* CreatingViewInLoop.swift */; };
+		1D8E609B2D8996D7009D6DE1 /* ReadingTextFromUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E609A2D8996D6009D6DE1 /* ReadingTextFromUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		1D8E60812D897260009D6DE1 /* LearningSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8E60852D897260009D6DE1 /* LearningSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITests.swift; sourceTree = "<group>"; };
 		1D8E60872D897260009D6DE1 /* LearningSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D8E60942D8977CD009D6DE1 /* ModifyingProgramState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyingProgramState.swift; sourceTree = "<group>"; };
+		1D8E60962D897A89009D6DE1 /* BindingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingState.swift; sourceTree = "<group>"; };
+		1D8E60982D8984A5009D6DE1 /* CreatingViewInLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingViewInLoop.swift; sourceTree = "<group>"; };
+		1D8E609A2D8996D6009D6DE1 /* ReadingTextFromUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTextFromUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				1D8E606C2D89725D009D6DE1 /* ContentView.swift */,
 				1D8E606E2D89725F009D6DE1 /* Assets.xcassets */,
 				1D8E60702D89725F009D6DE1 /* Preview Content */,
+				1D8E60942D8977CD009D6DE1 /* ModifyingProgramState.swift */,
+				1D8E60962D897A89009D6DE1 /* BindingState.swift */,
+				1D8E60982D8984A5009D6DE1 /* CreatingViewInLoop.swift */,
+				1D8E609A2D8996D6009D6DE1 /* ReadingTextFromUser.swift */,
 			);
 			path = LearningSwiftUI;
 			sourceTree = "<group>";
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D8E606D2D89725D009D6DE1 /* ContentView.swift in Sources */,
+				1D8E60972D897A89009D6DE1 /* BindingState.swift in Sources */,
+				1D8E609B2D8996D7009D6DE1 /* ReadingTextFromUser.swift in Sources */,
+				1D8E60992D8984A5009D6DE1 /* CreatingViewInLoop.swift in Sources */,
 				1D8E606B2D89725D009D6DE1 /* LearningSwiftUIApp.swift in Sources */,
+				1D8E60952D8977CD009D6DE1 /* ModifyingProgramState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
